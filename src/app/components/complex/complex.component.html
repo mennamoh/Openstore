@@ -1,0 +1,13 @@
+     
+         <h2 class="header">Complex Products</h2>
+         <div class="body">
+        <div  *ngFor="let complex of complexcat" class="each">
+          
+           <div  *ngIf="complex.category==='complex'"> 
+            <img [src]=complex.imageUrl width="100" height="175" />  
+                <h4> {{complex.id}} </h4>
+                     {{complex.name}}
+                <li class="price"> {{complex.price | currency}}</li>      
+           </div>
+         </div>          
+     </div>

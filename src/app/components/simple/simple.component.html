@@ -1,0 +1,13 @@
+     
+         <h2 class="header">Simple Products</h2>
+         <div class="body">
+        <div  *ngFor="let cate of cat" class="each">
+          
+           <div  *ngIf="cate.category==='simple'"> 
+            <img [src]=cate.imageUrl width="100" height="175" />  
+                <h4> {{cate.id}} </h4>
+                     {{cate.name}}
+                <li class="price"> {{cate.price | currency}}</li>      
+           </div>
+         </div>          
+     </div>

@@ -1,0 +1,51 @@
+.body{
+  margin-top: 0%;
+  margin-left: 15%;
+  margin-right: 25%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin:inherit;  
+    font-family: arial;
+    
+  }
+
+  .each{
+    box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  
+  }
+   .ybutton{
+    position:relative;
+     float: right; 
+     padding: 0px 10px 0px 10px;
+     font-size: 24px;
+     border: yellow;
+     color: white;
+     background-color: yellow;
+     cursor: pointer;
+     
+   }
+   .Bbutton{
+    border:blue;
+    position:relative;
+    color: white;
+    background-color: rgb(7, 7, 212);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  
+   
+   }
+   .ALign{
+    position:relative;
+      
+   }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
